@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../my-game/my-game.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <title>My Game</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="title">
+                <h2>Snake Game</h2>
+                <h3 id="score">Score: </h3>
+            </header>
+        </div>
+        <div class="container">
+            <section class="overlay">
+                <div class="gameOverGrid">
+                    <h3 id="gameOver">You lose!</h3>
+                </div>
+                <button class="gameOverGrid btn">Play</button>
+            </section>
+            <section id="gameBoard"></section>
+        </div>    
+        <script src="../my-game/jquery-3.6.0.js"></script>
+        <script src="../my-game/my-game.js"></script>
+    </body>
+</html>
